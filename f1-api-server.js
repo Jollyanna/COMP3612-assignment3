@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-const path = require("path");
 
 const router = require("./scripts/f1-api-router.js");
 // CIRCUIT ROUTES
