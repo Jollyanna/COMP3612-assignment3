@@ -2,9 +2,9 @@
   "name": "assignment3",
   "version": "1.0.0",
   "description": "COMP 3612 Assignment 3",
-  "main": "index.js",
+  "main": "f1-api-server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node f1-api-server.js"
   },
   "author": "Juliana Marie Tafalla",
   "license": "ISC",
