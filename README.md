@@ -42,4 +42,5 @@ Below is a list of links to test out the functionality of the implemented APIs:
 - [/api/drivers/hamilton](https://meadow-ambitious-ziconium.glitch.me/api/drivers/hamilton) : valid link that returns a driver, Hamilton
 - [/api/drivers/HAMilton](https://meadow-ambitious-ziconium.glitch.me/api/drivers/HAMilton) : valid link that returns a driver, Hamilton (case insensitive)
 - [/api/drivers/randy](https://meadow-ambitious-ziconium.glitch.me/api/drivers/randy) : invalid link (invalid driver reference value: randy)
+- [/api/driverResults/piastri/2023](https://meadow-ambitious-ziconium.glitch.me/api/driverResults/piastri/2023) : valid link that returns the results for the driver Piastri in season 2023
   
