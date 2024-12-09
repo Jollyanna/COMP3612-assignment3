@@ -1,3 +1,42 @@
+
+/*------------------------------------------------------------------------------------------------------------------------*
+ * COMP 3612 - Assignment 3
+ * F1 Race Data API
+ * Javascript and Node  
+ * ʚ Juliana Marie Tafalla ɞ
+ * 
+ * F1-API-ROUTER
+ * This file is a module for the routes implemented, allowing the server to respond to API requests.
+ * 
+ * General Note(s):
+ *  - The project uses a module, Express, for ease.  
+ *  - The project is hosted on Glitch. 
+ *      >   The Glitch URL that precedes the implemented API links is: https://meadow-ambitious-ziconium.glitch.me/  
+ *  
+ * Module Note(s):
+ *  - The functions are structured and grouped together based on the data the functions are reading from, 
+ *    as formatted below:
+ *      > data
+ *          // ...
+ *      > helper function(s)
+ *          // jsonMessage()       
+ *      > CIRCUIT APIs
+ *          // handleAllCircuits() ; handleCircuitsById()
+ *      > CONSTRUCTOR APIs
+ *          // handleAllConstructors() ; handleConstructorsByRef() ; handleConstructorResults()
+ *      > DRIVER APIs 
+ *          // handleAllDrivers() ; handleDriversByRef() ; handleDriverResults()
+ *      > RACE APIs
+ *          // handleRacesbySeason() ; handleRacesById()
+ *      > RESULT APIs 
+ *          // handleResultsById() ; handleResultsBySeason()
+ *      > export routes
+ *          // ...   
+--------------------------------------------------------------------------------------------------------------------------*/
+
+/* ʚɞ */
+
+// DATA
 const allData         = require("./data-provider.js");
 const allCircuits     = allData.circuitsData;
 const allConstructors = allData.constructorsData;
@@ -183,6 +222,7 @@ const handleResultsBySeason = (app) => {
 
 /* ʚɞ */
 
+// EXPORT ROUTES
 module.exports = {
     // CIRCUIT APIs
     handleAllCircuits,
