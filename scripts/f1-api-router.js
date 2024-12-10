@@ -1,4 +1,3 @@
-
 /*------------------------------------------------------------------------------------------------------------------------*
  * COMP 3612 - Assignment 3
  * F1 Race Data API
@@ -14,7 +13,7 @@
  *      >   The Glitch URL that precedes the implemented API links is: https://meadow-ambitious-ziconium.glitch.me/  
  *  
  * Module Note(s):
- *  - The functions are structured and grouped together based on the data the functions are reading from, 
+ *  - The functions are structured and grouped together based on the data they are reading from, 
  *    as formatted below:
  *      > data
  *          // ...
@@ -248,3 +247,4 @@ module.exports = {
 };
 
 
+/* ʚɞ */
